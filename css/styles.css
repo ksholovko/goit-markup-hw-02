@@ -1,0 +1,149 @@
+:root {
+    --brand-color: #4d5ae5;
+    --pressed-state: #404bbf;
+    --text: #434455;
+    --headings-color: #2E2F42;
+    --background: #F4F4FD
+}
+
+body {
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    font-family: raleway;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.logo-web {
+    color: var(--brand-color);
+}
+
+.logo-studio {
+    color: var(--headings-color)
+}
+
+.nav {
+    color: var(--headings-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.nav:hover,
+.nav:focus {
+    color: var(--pressed-state);
+}
+
+.current-page {
+    color: var(--pressed-state);
+}
+
+.contacts {
+    color: inherit;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--pressed-state);
+}
+
+.headline {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: white;
+}
+
+.hero {
+    background: #2E2F42;
+
+}
+
+.main-button {
+    color: white;
+    background-color: var(--brand-color);
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+.button {
+    cursor: pointer;
+}
+
+.feature-title {
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--headings-color);
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.tittle-doing {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--headings-color);
+}
+
+.team-background {
+    background-color: #F4F4FD
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11x;
+    color: var(--headings-color);
+}
+
+.employee-name {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.employee-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.employee-card {
+    background: white;
+}
+
+.footer {
+    background: var(--headings-color);
+}
+
+.bottom-logo {
+    color: var(--background);
+}
+
+.bottom-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--background);
+}
