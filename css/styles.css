@@ -8,7 +8,8 @@
 }
 
 body {
-    font-family: roboto, sans-serif;
+    background-color: var(--second-background);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: var(--text);
     letter-spacing: 0.02em;
@@ -32,14 +33,15 @@ body {
 /* header */
 
 .logo {
-    font-family: raleway;
+    font-family: "Raleway";
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-}
-
-.logo-web {
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--brand-color);
 }
+
 
 .logo-studio {
     color: var(--headings-color)
