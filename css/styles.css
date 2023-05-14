@@ -33,7 +33,7 @@ body {
 /* header */
 
 .logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -62,10 +62,13 @@ body {
     color: var(--pressed-state);
 }
 
+.contacts-nav {
+    font-style: normal;
+}
+
 .contacts {
     color: inherit;
     font-family: inherit;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -83,6 +86,8 @@ body {
     font-size: 56px;
     line-height: 1.07;
     color: var(--second-background);
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .hero {
@@ -97,6 +102,7 @@ body {
     font-weight: inherit;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
 
 }
 
@@ -109,6 +115,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     color: var(--headings-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .description {
@@ -122,6 +130,9 @@ body {
     font-size: 36px;
     line-height: 1.11;
     color: var(--headings-color);
+    text-align: center;
+    text-transform: capitalize;
+
 }
 
 .team-background {
@@ -131,13 +142,19 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11x;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     color: var(--headings-color);
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .employee-name {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--headings-color);
 }
 
 .employee-description {
@@ -158,6 +175,7 @@ body {
 
 .bottom-logo {
     color: var(--background);
+    font-family: "Raleway", sans-serif;
 }
 
 .bottom-text {
